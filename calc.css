@@ -1,0 +1,9 @@
+*{box-sizing: border-box;}
+body{background-color: cornflowerblue;}
+#container{width: 400px;}
+h1{text-align: center;}
+p{height: 40px;background-color: whitesmoke;text-align: center;align-content: center;}
+#sv{height: 260px;background-color:  chartreuse;}
+td{border: 1px solid blueviolet;border-collapse: collapse;width: 395px;}
+td{height: 50px;text-align: center;}
+button{}
