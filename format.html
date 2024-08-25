@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link href="calc.css" rel="stylesheet"/>
+        <script src="newjs.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Calculator</h1>
+            <p id="result"></p>
+              <div id="sv">
+                <table align="center">
+                    <tr>
+                        <td><button  onclick="fun()">C</button></td>
+                        <td><button onclick="rest()">reset</button></td>
+                        <td><button value="/" onclick="division()"id="a1">/</button></td>
+                        <td><button value="*" onclick="multiply()" id="a2">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="a" onclick="make()">9</button></td>
+                        <td><button id="b" onclick="make2()">8</button></td>
+                        <td><button id="c" onclick="make3()">7</button></td>
+                        <td><button value="-" onclick="minus()" id="a3">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="d" onclick="make4()">6</button></td>
+                        <td><button id="e" onclick="make5()">5</button></td>
+                        <td><button id="f"onclick="make6()">4</button></td>
+                        <td><button value="+" onclick="plus()"id="a4">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="g"onclick="make7()">3</button></td>
+                        <td><button id="h"onclick="make8()">2</button></td>
+                        <td><button id="i"onclick="make9()">1</button></td>
+                        <td rowspan="2" onclick="make10()" id="a5"><button>=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="j"onclick="make11()">0</button></td>
+                        <td><button id="k"onclick="make12()">00</button></td>
+                        <td><button id="l"onclick="make13()">.</button></td>
+                    </tr>
+                </table>
+              </div>  
+            
+       </div>
+    </body>
+</html>
